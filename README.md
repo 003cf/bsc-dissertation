@@ -17,3 +17,6 @@ unlearning method (Wang et al., 2019) and an advanced adversarial training techn
 and imperceptible backdoor triggers. The results showed success in some areas and
 highlighted the need for further exploration into the perturbation budget of the poison trigger
 in comparison to the defensive one.
+
+📄 Full dissertation available as a downloadable PDF in /report.
+(GitHub preview may not render due to PDF encoding.)
