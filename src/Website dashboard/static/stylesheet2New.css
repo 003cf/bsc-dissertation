@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background for the whole page */
+}
+
+
+.banner {
+    background-color: rgb(34, 184, 217);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button-container {
+    padding: 20px;
+    background-color: rgb(172, 221, 233);
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
+    gap: 0px; /* Spacing between buttons */
+    margin: 0 10%; /* Creates grey side margins by centering the content */
+}
+
+.button-container button {
+    padding: 0px;
+    font-size: 16px;
+    background-color: rgb(172, 221, 233);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.main-content {
+    background-color: white;
+    margin: 0 15%; /* Same width as the buttons */
+    padding: 20px;
+    text-align: center;
+    display: block; /* Initially shown for page 1 */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr ; /* 1 columns */
+    grid-template-rows: 1fr; /* 1 rows */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Space between paragraph and grid */
+}
+
+.top-left, .top-right, .bottom
+
+
+section {
+    text-align: center;
+}
+
+.slider-container { margin: 20px; text-align: center; padding: 10px;}
+.slider-label { display: block; margin-bottom: 5px; text-align: left;}
+.slider { width: 80%; }
+.scale { font-size: 12px; display: flex; justify-content: space-between; width: 80%; margin: auto; }
+.scale div { position: relative; }
+.scale div::after { content: attr(data-value); position: absolute; left: 50%; transform: translateX(-50%); }
+.button { margin: 10px; padding: 10px; background-color: rgb(34, 184, 217); color: white; border: none; cursor: pointer; }
